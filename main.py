@@ -29,7 +29,7 @@ foggy_clear_detector = FoggyClearDetector(model_path="best_mlp_strong_focal.pth"
 day_night_detector = DayNightDetector()
 
 # ✅ 영상 열기
-cap = cv2.VideoCapture('clear_night_tetra.mp4')
+cap = cv2.VideoCapture('foggy_day_tetra.mp4')
 if not cap.isOpened():
     print("❌ 영상을 열 수 없습니다.")
     exit()
