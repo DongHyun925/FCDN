@@ -17,8 +17,6 @@ A video-based classification project that automatically determines **day/night**
 FCDN is designed to analyze input videos and classify environmental conditions using a lightweight and interpretable pipeline.  
 The system first distinguishes **day vs. night** based on global brightness, applies **gamma correction** for night scenes, and then classifies **foggy vs. clear** conditions using a trained MLP model based on handcrafted visual features.
 
-This project was developed and tested using real-world video data collected in **Pohang**, reflecting practical CCTV and outdoor monitoring environments.
-
 ---
 
 ## Pipeline
