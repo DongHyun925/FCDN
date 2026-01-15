@@ -14,8 +14,9 @@ A video-based classification project that automatically determines **day/night**
 ---
 
 ## Overview
-FCDN is designed to analyze input videos and classify environmental conditions using a lightweight and interpretable pipeline.  
-The system first distinguishes **day vs. night** based on global brightness, applies **gamma correction** for night scenes, and then classifies **foggy vs. clear** conditions using a trained MLP model based on handcrafted visual features.
+
+FCDN은 입력 영상을 분석하여 환경 조건을 분류하기 위해 설계된 경량화되고 해석 가능한 파이프라인입니다.  
+본 시스템은 복잡한 딥러닝 구조 대신, 명확한 처리 흐름과 시각적 특징 기반 분류를 통해 실시간 환경 인식을 목표로 합니다.
 
 ---
 
